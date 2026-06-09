@@ -7,6 +7,7 @@ node_modules/
 .next/
 out/
 .vercel/
+tsconfig.tsbuildinfo
 
 # env
 .env
@@ -27,3 +28,5 @@ Thumbs.db
 
 # Hermes/local
 .hermes/
+
+.vercel
