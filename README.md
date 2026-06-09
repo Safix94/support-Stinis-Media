@@ -10,8 +10,10 @@ Het ticket moet automatisch terechtkomen in het interne Stinis Media dashboard o
 
 ## Fase 1 status
 
-Fase 1 is uitgewerkt als functioneel en visueel plan:
+Fase 1 is uitgewerkt als functioneel en visueel plan én bevat een statische Vercel-landingspagina zodat het domein geen 404 toont:
 
+- [`index.html`](index.html)
+- [`styles.css`](styles.css)
 - [`docs/phase-1-support-portal-plan.md`](docs/phase-1-support-portal-plan.md)
 - [`docs/design-direction.md`](docs/design-direction.md)
 - [`docs/support-intake-spec.md`](docs/support-intake-spec.md)
