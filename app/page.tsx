@@ -376,7 +376,6 @@ function CustomSelect({
         aria-label={ariaLabel}
         aria-expanded={open}
         onClick={() => setOpen((current) => !current)}
-        onBlur={() => window.setTimeout(() => setOpen(false), 120)}
         className="flex h-12 w-full items-center justify-between rounded-2xl border border-stone-200 bg-white px-4 text-left text-sm text-stone-900 shadow-sm transition hover:border-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
       >
         <span className={selected ? "" : "text-stone-400"}>{selected?.label ?? placeholder}</span>
